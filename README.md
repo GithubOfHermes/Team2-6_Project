@@ -43,18 +43,18 @@
 
 ### Project System Architecture 🧾
 ```
-				          +---------------------------+
-				          |   사용자 (User Interface)  |
-				          +---------------------------+
-                                 |
-                                 v
-				          +---------------------------+
-				          |     모드 선택 (Main Menu)  |
-				          +---------------------------+
+                             +---------------------------+
+                             |   사용자 (User Interface)  |
+                             +---------------------------+
+                                          |
+                                          v
+                             +---------------------------+
+                             |     모드 선택 (Main Menu) |
+                             +---------------------------+
 		                    |                |
 		                    v                v
 		        +------------------+   +-----------------+
-		        |  스톱워치 모드    |   |   타이머 모드    |
+		        |  스톱워치 모드   |   |   타이머 모드    |
 		        | (Stopwatch Mode) |   | (Timer Mode)    |
 		        +------------------+   +-----------------+
 		                    |                   |
@@ -65,63 +65,35 @@
 		        +------------------+   +-----------------+
 		                    |                   |
 		                    v                   v
-				          +---------------------------+
-				          |    종료 및 초기화 기능     |
-				          +---------------------------+
+                                 +---------------------------+
+                                 |    종료 및 초기화 기능     |
+                                 +---------------------------+
 ```
 
 ### 2) Milestone  
-![milestones](https://github.com/user-attachments/assets/2c3bec9e-6a62-47e2-b85a-f93e42f2a208)
+![milestones](https://github.com/user-attachments/assets/2c3bec9e-6a62-47e2-b85a-f93e42f2a208)  
 
 ### 3) Open 상태인 Issue  
-없음
+![open issue](https://github.com/user-attachments/assets/cc61fed7-6921-48e8-86f1-6458a9f4d700)  
+
 
 ### 4) Closed 상태인 Issue  
-1. README.md 파일 수정
-2. Timer 기능 추가
-3. stopwatch 기능추가
-4. 최종 PR
-5. README.md 최종수정
-6. 최종 기능 테스팅
-7. Requirements.txt Ignore 하고 Commit 하여 코드 파일 Re-Commit
+![close issue](https://github.com/user-attachments/assets/8a94d313-2fd6-43ca-9505-805cca01f183)  
+
+### 5) 최종적 Project 보드  
+![project board](https://github.com/user-attachments/assets/45c216d7-1bf7-4b3e-8c54-53944d98f4bd)  
+
+### 6) Requirements.txt
+
+### 7) PR 탭 화면 (open/closed 둘다 스크린샷)  
+open  
+![open PR](https://github.com/user-attachments/assets/acaa1184-e261-4aa4-a08f-b7a4601cd0d8)  
+closed  
+![close PR](https://github.com/user-attachments/assets/1ebbebba-4ad6-4f11-bc1b-e534f64b23ba)  
+
+### 8) 실행 화면
+![terminal](https://github.com/user-attachments/assets/6eb02bd4-072f-4b78-9d38-1ced9b9ceca5)
 
 
-Project Tech Stack & File Structure
-#### Tech Stack 🔨<br>
 
- <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <br> `version: 3.12 이상` <br>
-
-#### File Structure📂 <br>
-```
-.
-├── README.md                
-├── code
-│   └── clock.py                # 스톱워치 및 타이머 기능이 포함된 메인 Python 코드
-├── newvenv/                    # Python 가상 환경 폴더 (Python 3.12* 기반)
-│   ├── bin/
-│   │   ├── activate            # 가상 환경 활성화 스크립트 (Bash, Fish, csh 등)
-│   │   ├── Activate.ps1        # 가상 환경 활성화 스크립트 (PowerShell용)
-│   │   ├── pip, pip3, pip3.13  # 가상 환경 내 패키지 설치 관리 도구
-│   │   ├── python, python3     # Python 실행 파일 (Python 3.12로 연결됨)
-│   └── lib/
-│       └── python3.13/
-│           └── site-packages/  # 가상 환경 내 설치된 라이브러리
-├── requirements.txt            # 프로젝트에 필요한 패키지 목록 
-```
-
-### cooperation strategy🥊
-#### Git Branch Workflow <br>
-```
-    main["main (Stable)"] -->|Merge for Release| develop["develop (Integration)"]
-    subgraph Features
-        Stopwatch["Stopwatch 기능 구현"] --> develop 
-        Timer["Timer 기능 구현"] --> develop
-        Main["Main 함수 구현"] --> develop 
-    end
-    develop --> main 
-```
-<br>
-
-develop 브렌치에서 기능을 구현한뒤, Main 브렌치에 병합하기전에 테스팅한 후, 병합 <br>
-최종 테스팅은 메인에서 진행 <br>
 
