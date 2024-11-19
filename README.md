@@ -71,7 +71,7 @@
 ```
 
 ### 2) Milestone  
-![](C:\Users\ksy91\OneDrive\바탕 화면\3학년2학기\오픈소스SW의 이해\test\milestones.png)
+![milestones](https://github.com/user-attachments/assets/2c3bec9e-6a62-47e2-b85a-f93e42f2a208)
 
 ### 3) Open 상태인 Issue  
 없음
