@@ -3,6 +3,7 @@
 ## 2-6조_오픈소스SW의 이해 _깃헙프로젝트.pdf
 ### 내용:  
 20205139 스마트IOT 김성열  
+Github Project URL: https://github.com/sanchaehwa/Team2-6_Project.git  
 
 ### 1) Project Introduction 👋🏻
 간편하게 사용할 수 있는 타이머,스톱워치 구현  
