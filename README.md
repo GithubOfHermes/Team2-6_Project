@@ -84,7 +84,9 @@
 ![project board](https://github.com/user-attachments/assets/45c216d7-1bf7-4b3e-8c54-53944d98f4bd)  
 
 ### 6) Requirements.txt
+![requirements](https://github.com/user-attachments/assets/d3485e5f-4c32-45bc-abf3-68c9e0d0b4dc)
 
+  
 ### 7) PR 탭 화면 (open/closed 둘다 스크린샷)  
 open  
 ![open PR](https://github.com/user-attachments/assets/acaa1184-e261-4aa4-a08f-b7a4601cd0d8)  
